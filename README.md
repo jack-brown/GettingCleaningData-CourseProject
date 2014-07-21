@@ -1,7 +1,7 @@
 ##README.md: GettingCleaningData-CourseProject
 =============================================
 
-Course Project Repository for the Getting and Cleaning Data Course of the JHU Data Science Specialization
+###Course Project Repository for the Getting and Cleaning Data Course of the JHU Data Science Specialization
 
 The purpose of this repository is to take a set of data spread across several input data files, transform that data via an R script into a ‘tidy’ data set and save that tidy data set to a file.  The input data is in a set of test and training files along with several other accompanying files that describe the data.  
 
@@ -40,4 +40,5 @@ You should create one R script called run_analysis.R that does the following.
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive variable names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
 Good luck!
