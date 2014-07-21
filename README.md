@@ -14,7 +14,13 @@ The transformation from raw data to tidy data involves the following:
 
 Finally, the tidy data is saved to a file in .csv format.
 
-See the Course Project Description below for more details.  
+See the Course Project Description below for more details.
+
+###To execute this project:
+* Save run_analysis.R in the working directory.
+* Extract and save the input data files into ~/data/.
+* Run run_analysis.R from the working directory.
+* Retrieve the output from ~/data/tidyData2.csv.
 
 ###Repository File List:
 * README.md - This file
