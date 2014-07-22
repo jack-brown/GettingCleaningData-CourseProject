@@ -79,10 +79,12 @@ As described in the embedded comments within the run_analysis.R file, this R scr
 2.  Filter out all variables except those pertaining to the mean and standard deviation (std) of the measurements.
 3.  Replace the activity numbers in the second column of the data frame with the actvitiy labels, which are taken from activity_labels.txt.
 4.  Assign the abbreviated variable names to their corresponding column in the data frame, then expand those variable names to be more readable using camel casing. The following list shows some examples of how the variable names were expanded:
+
 * tBodyAcc-mean()-X -> timeBodyAccelerometerMeanX
 * tBodyGyro-std()-Y -> timeBodyGyroscopeStdY
 * fBodyAccJerkMag-mean() -> freqBodyAccelerometerJerkMagnitudeMean
 * fBodyGyroJerkMag-std() -> freqBodyGyroscopeJerkMagnitudeStd
+
 5.  Aggregate the 10299 observations into 180 by taking the mean of each variable based on both the subject and the activity.  Append '_Mean' to the name of each variable (column name).  Finally, write this new and now tidy dataset out to a file in ..csv format.  That output file is called tidyData2.csv.
 
 ###Appendix - License for the Input Dataset
